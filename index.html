@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>HTML tables</title>       
+</head>
+<style >
+    table{
+        border:4px solid black;
+        background-color: black;
+        border-collapse: collapse;
+        width: 400px;
+        height: 600px;
+        font-size: 30px;
+        
+        
+    }
+    td{
+        background-color: black;
+        border-collapse: collapse;
+    }
+    button{
+        border: 4px solid black;
+        border-radius: 50px;
+        width: 100%;
+        height:100%;
+        border-collapse: collapse;
+        font-size: 25px;
+        /*background-color: white;*/
+        color: white;
+        
+        
+    }
+    
+</style>
+   
+<body bgcolor="black">
+    <center>
+<br>
+<h1 style="color: white"> Calculator</h1>    
+<table>
+    
+    <tr>
+        <td colspan="4" style="color: white; text-align: right;font-size: 60px" id="id1">0</td>
+        <br>
+    
+    
+    </tr>
+    <tr>
+        <td colspan="2"><button onclick="hello(this) " style="width: 100%; background-color: lightgrey; color: black">AC</button></td>
+        <td><button onclick="hello(this) " style="width: 100%; background-color: lightgrey;color: black">C</button></td>
+        <td><button onclick="hello(this)" style="background-color: #F07731">/</button></td>
+    
+    
+    </tr>
+    
+    <tr>
+        <td><button style="background-color: #333333" onclick="hello(this) ">7</button></td>
+        <td><button style="background-color: #333333" onclick="hello(this)">8</button></td>
+        <td><button style="background-color: #333333" onclick="hello(this)">9</button></td>
+        <td><button onclick="hello(this)" style="background-color: #F07731">*</button></td>
+    
+    </tr>
+    
+    <tr>
+        <td><button style="background-color: #333333" onclick="hello(this)">4</button></td>
+        <td><button style="background-color: #333333" onclick="hello(this)">5</button></td>
+        <td><button style="background-color: #333333" onclick="hello(this)">6</button></td>
+        <td><button onclick="hello(this)" style="background-color: #F07731">-</button></td>
+    </tr>
+    
+    <tr>
+        <td><button style="background-color: #333333" onclick="hello(this)">1</button></td>
+        <td><button style="background-color: #333333" onclick="hello(this)">2</button></td>
+        <td><button style="background-color: #333333" onclick="hello(this)">3</button></td>
+        <td><button onclick="hello(this)" style="background-color: #F07731">+</button></td>
+       
+    </tr>
+     <tr>
+        <td colspan="2"><button style="background-color: #333333" onclick="hello(this)">0</button></td>
+        <td><button style="background-color: #333333" onclick="hello(this)" style="width: 100%">.</button></td>
+        <td><button onclick="hello(this) " style="background-color: #F07731">=</button></td>
+        
+       
+    </tr>
+    
+</table>
+  
+    </center>
+    
+    
+    <script type="text/javascript" src="js/index.js"></script>
+    
+     
+</body>    
+    
+</html>
